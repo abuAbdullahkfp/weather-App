@@ -59,7 +59,7 @@ app.get('/weather', (req, res)=>{
           });
         }
         res.send({
-          forecast:`The weather is ${description}. It is currently ${temperature}C. It feels like ${feelslike}C outside.` ,
+          forecast:`${description}. It is currently ${temperature}c. It feels like ${feelslike}c outside.` ,
           location: placeName,
           address
         });
